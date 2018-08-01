@@ -17,9 +17,11 @@ body {
 /* MENU */
 .navbar {
 	padding-bottom: 15px;
-/*	border: solid radial-gradient(circle, #000000, #F4F4F4);
-	background-image: linear-gradient(#0F1626, #000000);*/
-	background-color: #000000;
+	border: solid radial-gradient(circle, #000000, #F4F4F4);
+	background-image: linear-gradient(#0F292F, #000000, #00303F, #111111, #19181A, #1C3334);
+	/*background-color: #000000;*/
+	/*background-image: url(../portfolioimages/gold.jpg);*/
+	opacity: 0.98;
 }
 
 .navbar:hover{
@@ -51,7 +53,8 @@ body {
 
 .navbar-brand:hover{
 	/*color:  #0F1626;*/
-	color: #CDA34F;
+	color: #CDA34F;;
+
 }
 
 .nav-link:hover{
@@ -60,12 +63,14 @@ body {
 	text-decoration:underline;
 }
 
-/*.navLogo{
+/*.ecLogo{
+	float: left;
+
 	width: 5%;
     height: 5px;
     background-size: contain;
-}*/
-
+}
+*/
 /*.menu-area li a{
 	text-decoration: none;
 	color: #fff;
@@ -149,8 +154,9 @@ nav: after{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 20px 30px;
 	display: inline-block;
-	background-image: url(../portfolioimages/gold.jpg);
-	/*background-color: green;*/
+	/*background-image: url(../portfolioimages/gold.jpg);*/
+	 background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
 	/*background-image: linear-gradient(#DCAE1D, #CDA34F);*/
 	letter-spacing: 4px;
 	text-transform: uppercase;
@@ -160,7 +166,8 @@ nav: after{
 }
 
 .btn:hover{
-	background-image: linear-gradient(#5D001E, #78244C);
+	/*background-image: linear-gradient(#5D001E, #78244C);*/
+	background-image: url(../portfolioimages/gold.jpg);
 	color: #E9E7DA; 
 }
 
@@ -321,8 +328,10 @@ nav: after{
 
 .popover-dismiss{
 	color: #E9E7DA;
-	background-image: linear-gradient(#5D001E, #B82601);
+	background-image: linear-gradient(#0F292F, #000000, #111111, #19181A, #1C3334);
+	/*background-image: linear-gradient(#5D001E, #B82601);*/
 	text-transform: uppercase;
+	font: 17px/17px 'Fredericka the Great', cursive;
 }
 
 #myModal{

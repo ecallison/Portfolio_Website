@@ -1,0 +1,89 @@
+body {
+	background: linear-gradient(to right,  #E9E7DA, #FFFFFF);
+}
+
+.heading{
+	font: bold 35px/35px 'Cinzel', serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	color: #E9E7DA;
+}
+
+.heading-container{
+	padding: 25px;
+	background-image: linear-gradient(#062F4F, #000000);
+	margin: auto;
+	border: 3px solid #CDA34F;
+	width: 65%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.description{
+	font: 15px/15px 'Cinzel', serif;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.hero-feature#code{
+	background: url(../portfolioimages/Callisontechinspirationpic.PNG) no-repeat top center / 100% auto;
+	opacity: 0.8;
+}
+
+.hero-feature#webpage{
+	background: url(../portfolioimages/callisonincindex1.PNG) no-repeat top center / 100% auto;
+	opacity: 0.8;
+}
+
+.hero-feature{
+	width: 50%;
+	float:left;
+	padding-top: 270px;
+	padding-bottom: 400px;
+	text-align: center;
+}
+
+.featurette-divider{
+	clear: both;
+	overflow: hidden;
+	border-color: #CDA34F;
+	border-width: 4px;	
+	margin: 0;
+}
+
+.btn {
+	border-radius: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #E9E7DA;
+	padding: 20px 30px;
+	margin: 15px auto;
+	text-transform: uppercase;
+	display: inline-block;
+	background-image: linear-gradient(#5D001E, #B82601);
+	letter-spacing: 5px;
+	font: 19px/19px 'Fredericka the Great', cursive;
+	text-decoration: none;
+}
+
+.btn:hover{
+	background-image: linear-gradient(#5D001E, #78244C);
+	color: #E9E7DA; 
+}
+
+.container{
+	margin-top: 10px;
+	font: bold 14px/14px 'Cinzel', serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #062F4F;
+}
+
+.float-right{
+	float: right;
+	margin-right: 5%;
+}

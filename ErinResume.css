@@ -1,0 +1,75 @@
+body {
+	background: linear-gradient(to right,  #E9E7DA, #FFFFFF);
+}
+
+.heading{
+	font: bold 35px/35px 'Cinzel', serif;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	color: #E9E7DA;
+}
+
+.heading-container{
+	padding: 10px;
+	background-image: linear-gradient(#062F4F, #000000);
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #CDA34F;
+	width: 18%;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+.hero-feature#resumePic{
+	background-position: top center;
+	background-size: contain;
+	position: relative;
+	opacity: 0.8;
+	border: 3px solid #CDA34F;
+	margin: auto;
+    width: 25%;
+    padding-top: 270px;
+	padding-bottom: 345px;
+	text-align: center;
+}
+
+/*.hero-feature#skillsPic{
+	background-image: url(../portfolioimages/tempskills.PNG );
+	height:auto;
+	background-position: top center;
+	background-size: contain;
+	position: relative;
+	background-repeat: no-repeat;
+	opacity: 0.8;
+	border: 3px solid #5D001E;
+}*/
+
+/*.hero-feature{
+	width: 50%;
+	/*float:left;*/
+	
+/*}*/
+
+.featurette-divider{
+	clear: both;
+	overflow: hidden;
+	border-color: #CDA34F;
+	border-width: 4px;	
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.container{
+	/*margin-top: 10px;*/
+	margin-bottom: 10px;
+	font: bold 14px/14px 'Cinzel', serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #062F4F;
+}
+
+.float-right{
+	float: right;
+	margin-right: 5%;
+}
